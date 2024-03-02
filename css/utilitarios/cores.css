@@ -1,0 +1,43 @@
+:root {
+  /*cores de base*/
+  --cor-0: #ffffff;
+  --cor-1: #f7f7f7;
+  --cor-2: #d9d9d9;
+  --cor-3: #c7c7c7;
+  --cor-4: #adadad;
+  --cor-5: #999999;
+  --cor-6: #828282;
+  --cor-7: #757575;
+  --cor-8: #636363;
+  --cor-9: #575757;
+  --cor-10: #474747;
+  --cor-11: #383838;
+  --cor-12: #262626;
+  --cor-13: #121212;
+  --cor-14: #000000;
+  /*cores de enfase*/
+  --cor-e1: #ffb800;
+  --cor-e2: #e9a622;
+  --cor-e3: #c8890b;
+  --cor-e4: #a87000;
+  --cor-e5: #5b2d00;
+  --cor-e6: #412b00;
+  --cor-e7: #1e1400;
+}
+
+.cor-e1 {
+  color: var(--cor-e1);
+}
+.corpo-de-texto-cor-4{
+  color: var(--cor-4);
+}
+.corpo-de-texto-cor-5{
+  color: var(--cor-5);
+}
+.corpo-de-texto-cor-6{
+  color: var(--cor-6);
+}
+.corpo-de-texto-cor-7{
+  color: var(--cor-7);
+}
+
