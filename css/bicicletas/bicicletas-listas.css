@@ -1,0 +1,73 @@
+.modelos {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+}
+.modelos h2 {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.modelos-opcoes {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow-x: auto;
+}
+.modelos-opcoes li {
+  min-width: 280px;
+  padding-bottom: 20px;
+}
+.modelos-opcoes h3 {
+  padding-top: 20px;
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+.modelos-opcoes li span {
+  padding-left: 30px;
+}
+.modelos-opcoes a {
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+.modelos-opcoes h3::before {
+  content: " ";
+  width: 20px;
+  height: 4px;
+  background-color: var(--cor-e1);
+  display: inline-block;
+  margin-right: 8px;
+  transition: width 0.2s;
+}
+.modelos-opcoes a:hover h3::before{
+  width: 28px;
+  height: 6px;
+}
+
+@media (max-width: 1200px) {
+  .modelos h2 {
+    padding-top: 48px;
+    padding-bottom: 36px;
+  }
+  .modelos-opcoes li h3 {
+    font-size: 2rem;
+  }
+  .modelos-opcoes {
+    gap: 20px;
+  }
+}
+@media (max-width: 950px) {
+  .modelos h2 {
+    font-size: 2.5rem;
+  }
+  .modelos-opcoes li h3 {
+    font-size: 1.75rem;
+  }
+  .modelos-opcoes li span {
+    font-size: 1.25rem;
+  }
+}
