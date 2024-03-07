@@ -28,6 +28,12 @@
 .cor-e1 {
   color: var(--cor-e1);
 }
+.corpo-de-texto-cor-0{
+  color: var(--cor-0);
+}
+.corpo-de-texto-cor-1{
+  color: var(--cor-1);
+}
 .corpo-de-texto-cor-4{
   color: var(--cor-4);
 }
