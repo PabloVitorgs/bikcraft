@@ -1,0 +1,30 @@
+.footer-bg{
+  background-color: var(--cor-14);
+}
+.footer-container{
+  padding-top: 80px;
+  padding-bottom: 32px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+}
+.footer-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+}
+.footer-lista li{
+  margin-bottom: 20px;
+}
+.footer-conteudo a{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+
+
+/* .redes-sociais img{
+  background-color: var(--cor-1);
+} */

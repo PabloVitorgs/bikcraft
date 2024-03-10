@@ -28,11 +28,23 @@
 .cor-e1 {
   color: var(--cor-e1);
 }
+.cor-e4 {
+  color: var(--cor-e4);
+}
+.cor-e5 {
+  color: var(--cor-e5);
+}
+.cor-e7{
+  color: var(--cor-e7);
+}
 .corpo-de-texto-cor-0{
   color: var(--cor-0);
 }
 .corpo-de-texto-cor-1{
   color: var(--cor-1);
+}
+.corpo-de-texto-cor-3{
+  color: var(--cor-3);
 }
 .corpo-de-texto-cor-4{
   color: var(--cor-4);
@@ -46,10 +58,16 @@
 .corpo-de-texto-cor-7{
   color: var(--cor-7);
 }
+.corpo-de-texto-cor-8{
+  color: var(--cor-8);
+}
 .corpo-de-texto-cor-10{
   color: var(--cor-10);
 }
 .corpo-de-texto-cor-13{
   color: var(--cor-13);
+}
+.corpo-de-texto-cor-14{
+  color: var(--cor-14);
 }
 

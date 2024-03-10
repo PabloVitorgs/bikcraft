@@ -9,6 +9,9 @@
   align-items: end;
   gap: 40px;
 }
+.introducao-textos{
+  padding-bottom: 240px;
+}
 .introducao-textos h1 {
   margin-bottom: 20px;
 }
@@ -38,6 +41,9 @@
   }
   .introducao-container {
     grid-template-columns: 1fr;
+  }
+  .introducao-textos{
+    padding-bottom: 0px;
   }
   .introducao-textos h1 {
     font-size: 36px;

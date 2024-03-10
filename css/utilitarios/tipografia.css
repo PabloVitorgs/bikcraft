@@ -1,4 +1,7 @@
 /* font display */
+.font-d-r{ /*20px/32 */
+  font:400 1.25rem/1.6 'poppins',sans-serif;
+}
 .font-d-m0{/*18px/40*/
   font:500 1.125rem/2.2 'poppins', sans-serif;
 }
@@ -8,8 +11,17 @@
 .font-d-m2{/*24px/48*/
   font:500 1.5rem/2 'poppins', sans-serif;
 }
+.font-d-m3{/*32px/36*/
+  font:500 2rem/21.125 'poppins', sans-serif;
+}
+.font-d-sm0{ /*12px/16 */
+  font:600 0.75rem/1.33 'poppins',sans-serif;
+}
 .font-d-sm{/*36px/40*/
   font:600 2.25rem/1.11 'poppins', sans-serif;
+}
+.font-d-sm2{/*36px/48*/
+  font:600 2.25rem/1.33 'poppins', sans-serif;
 }
 .font-d-b0{/*24px/40*/
   font:700 1.5rem/1.6 'poppins', sans-serif;
@@ -42,4 +54,8 @@
 }
 .font-c-b{/*36px/40*/
   font:700 2.25rem/1.11 'roboto', sans-serif ;
+}
+
+.font-citacao{ /*32px/48*/
+  font:900 2rem/1.5 'Marriweather',serif;
 }
