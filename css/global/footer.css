@@ -39,6 +39,7 @@ a {
   grid-column: 1/-1;
   font: 500 1.125rem/1.11 "roboto", sans-serif;
 }
+
 @media (max-width: 1100px) {
   .footer-container span {
     display: none;
@@ -63,5 +64,19 @@ a {
   }
   .footer-copy {
     padding-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-contato li + li,
+  .footer-informacoes li + li {
+    padding-top: 12px;
+  }
+  .footer-contato h3,
+  .footer-informacoes h3 {
+    font: 500 1.6rem/1.125 "poppins", sans-serif;
+  }
+  .footer-contato li,
+  .footer-informacoes li {
+    font: 500 1.2rem/2 "roboto", sans-serif;
   }
 }

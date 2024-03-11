@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* botao */
 .botao{
   text-decoration: none;
   text-transform: uppercase;
@@ -38,9 +39,34 @@
     padding: 12px 24px;
   }
 }
-
 @media (max-width: 850px) {
   .botao {
     margin-bottom: 0px;
+  }
+}
+
+/* titulo */
+.titulo-bg {
+  background-color: var(--cor-13);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo p {
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+@media (max-width: 800px) {
+  .titulo-bg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo h1{
+    font-size: 2rem;
+  }
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

@@ -40,6 +40,9 @@
 .font-c-0m{/*16px/16*/
   font:500 1rem/1 'roboto', sans-serif ;
 }
+.font-c-01m{/*16px/20*/
+  font:500 1rem/1.25 'roboto', sans-serif ;
+}
 .font-c-m1{/*22px/32*/
   font:500 1.375rem/1.45 'roboto', sans-serif ;
 }
