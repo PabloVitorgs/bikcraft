@@ -70,11 +70,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.botao {
+.botao.seta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   place-self: end;
+}
+.botao.seta::after{
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  background-image: url("../../0827-favicon/bikcraft-arquivos/img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+.botao.seta:hover::after{
+  transform: translateX(6px);
 }
 
 @media (max-width: 1100px) {
