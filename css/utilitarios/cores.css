@@ -43,6 +43,9 @@
 .corpo-de-texto-cor-1{
   color: var(--cor-1);
 }
+.corpo-de-texto-cor-2{
+  color: var(--cor-2);
+}
 .corpo-de-texto-cor-3{
   color: var(--cor-3);
 }
@@ -61,8 +64,14 @@
 .corpo-de-texto-cor-8{
   color: var(--cor-8);
 }
+.corpo-de-texto-cor-9{
+  color: var(--cor-9);
+}
 .corpo-de-texto-cor-10{
   color: var(--cor-10);
+}
+.corpo-de-texto-cor-11{
+  color: var(--cor-11);
 }
 .corpo-de-texto-cor-12{
   color: var(--cor-12);

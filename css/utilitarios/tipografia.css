@@ -17,6 +17,9 @@
 .font-d-sm0{ /*12px/16 */
   font:600 0.75rem/1.33 'poppins',sans-serif;
 }
+.font-d-sm1{ /*18px/20 */
+  font:600 1.125rem/1.11 'poppins',sans-serif;
+}
 .font-d-sm{/*36px/40*/
   font:600 2.25rem/1.11 'poppins', sans-serif;
 }
@@ -52,8 +55,14 @@
 .font-c-m3{/*24px/48*/
   font:500 1.5rem/2 'roboto', sans-serif ;
 }
+.font-c-m31{/*28px/36*/
+  font:500 1.75rem/1.28 'roboto', sans-serif ;
+}
 .font-c-m4{/*36px/40*/
   font:500 2.25rem/1.11 'roboto', sans-serif ;
+}
+.font-c-b0{/*32px/40*/
+  font:700 2rem/1.25 'roboto', sans-serif ;
 }
 .font-c-b{/*36px/40*/
   font:700 2.25rem/1.11 'roboto', sans-serif ;
